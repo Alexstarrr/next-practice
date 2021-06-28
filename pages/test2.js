@@ -4,7 +4,7 @@ import { withRouter } from 'next/router';
 const Test2 = ({router}) => {
   return (
         <>
-            <h1>{`This is Test 2`}</h1>
+            <h1>{`This is Test 3`}</h1>
             <div>{router.query.name}</div>
             <Link href="/">
                 <a>Home</a>
